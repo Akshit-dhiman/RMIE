@@ -1,13 +1,13 @@
 export const BRANDS = [
-  { id: 1, name: 'TE Connectivity', slug: 'te-connectivity' },
-  { id: 2, name: 'Molex', slug: 'molex' },
-  { id: 3, name: 'JST', slug: 'jst' },
-  { id: 4, name: 'KET', slug: 'ket' },
-  { id: 5, name: 'Aptiv', slug: 'aptiv' },
-  { id: 6, name: 'HRS', slug: 'hrs' },
-  { id: 7, name: 'Sumitomo', slug: 'sumitomo' },
-  { id: 8, name: 'Amphenol', slug: 'amphenol' },
-  { id: 9, name: 'Yazaki', slug: 'yazaki' },
+  { id: 1, name: 'TE Connectivity', slug: 'te-connectivity', logo: '/brand-logos/te-connectivity.svg' },
+  { id: 2, name: 'Molex', slug: 'molex', logo: '/brand-logos/molex-logo.svg' },
+  { id: 3, name: 'JST', slug: 'jst', logo: '' }, // No logo file found
+  { id: 4, name: 'KET', slug: 'ket', logo: '' }, // No logo file found
+  { id: 5, name: 'Aptiv', slug: 'aptiv', logo: '/brand-logos/aptiv-logo.svg' },
+  { id: 6, name: 'HRS', slug: 'hrs', logo: '' }, // No logo file found
+  { id: 7, name: 'Sumitomo', slug: 'sumitomo', logo: '/brand-logos/Sumitomo_Corporation-Logo.wine.svg' },
+  { id: 8, name: 'Amphenol', slug: 'amphenol', logo: '/brand-logos/Amphenol-Logo.wine.svg' },
+  { id: 9, name: 'Yazaki', slug: 'yazaki', logo: '/brand-logos/yazaki-company-logo.svg' },
 ]
 
 export const CATEGORIES = [
