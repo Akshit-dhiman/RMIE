@@ -1,9 +1,8 @@
 import ContactForm from '@/components/ContactForm'
 
 export const metadata = {
-  title: 'Contact TCH Enterprises - Quick Quotations',
-  description:
-    'Get a quote within 24 hours. Contact TCH Enterprises for connector sourcing and pricing.',
+  title: 'Contact Radha Madhav India Enterprise',
+  description: 'Get in touch with Radha Madhav India Enterprise for connector quotations and support.',
 }
 
 export default function Contact() {

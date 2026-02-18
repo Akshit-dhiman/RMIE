@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
-    title: `${brandData.name} Connectors - TCH Enterprises`,
+    title: `${brandData.name} Connectors - Radha Madhav India Enterprise`,
     description: `Browse our collection of original ${brandData.name} connectors and components.`,
   }
 }

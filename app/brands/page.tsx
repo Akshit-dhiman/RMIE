@@ -1,7 +1,7 @@
 import BrandsGrid from '@/components/BrandsGrid'
 
 export const metadata = {
-  title: 'Featured Brands - TCH Enterprises',
+  title: 'Featured Brands - Radha Madhav India Enterprise',
   description: 'Explore the premium connector brands we represent.',
 }
 

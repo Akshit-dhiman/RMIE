@@ -10,9 +10,9 @@ import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper'
 import { ShieldCheck, FileText, Truck, Phone } from 'lucide-react'
 
 export const metadata = {
-  title: 'TCH Enterprises - Imported Connector Supplier in India',
+  title: 'Radha Madhav India Enterprise - Imported Connector Supplier in India',
   description:
-    'TCH Enterprises is a trusted importer and supplier of original automotive and industrial connectors including TE, Molex, JST and more.',
+    'Radha Madhav India Enterprise is a trusted importer and supplier of original automotive and industrial connectors including TE, Molex, JST and more.',
 }
 
 export default function Home() {

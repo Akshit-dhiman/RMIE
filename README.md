@@ -1,6 +1,6 @@
-# TCH Enterprises - B2B Connector Supplier Website
+# Radha Madhav India Enterprise - Corporate Website
 
-A production-ready MVP B2B corporate website for TCH Enterprises, an importer and supplier of original automotive and industrial connectors in India.
+Professional B2B corporate website for Radha Madhav India Enterprise, an importer and supplier of automotive and industrial connectors. in India.
 
 ## Features
 

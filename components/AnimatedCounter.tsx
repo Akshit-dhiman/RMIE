@@ -8,6 +8,7 @@ interface AnimatedCounterProps {
   duration?: number
   label: string
   sublabel?: string
+  className?: string
 }
 
 export default function AnimatedCounter({
@@ -16,6 +17,7 @@ export default function AnimatedCounter({
   duration = 2,
   label,
   sublabel,
+  className,
 }: AnimatedCounterProps) {
   const { ref, displayValue } = useAnimatedCounter({
     from: 0,
@@ -25,10 +27,10 @@ export default function AnimatedCounter({
   })
 
   return (
-    <div ref={ref} className="text-center">
-      <div className="text-5xl md:text-6xl font-bold text-blue-600 mb-2">{displayValue}</div>
+    <div ref={ref}>
+      <div className={className || "text-5xl md:text-6xl font-bold text-blue-600 mb-2"}>{displayValue}</div>
       <p className="text-gray-700 font-semibold text-lg">{label}</p>
-      {sublabel && <p className="text-gray-600 text-sm mt-2">{sublabel}</p>}
+      {sublabel && <p className="text-gray-500 text-sm mt-1">{sublabel}</p>}
     </div>
   )
 }
