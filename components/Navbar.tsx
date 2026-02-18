@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-2xl font-extrabold text-[var(--primary)] tracking-tighter">
-              TCH<span className="text-[var(--accent)]">.</span>ENTERPRISES
+              RMI<span className="text-[var(--accent)] font-normal">ENTERPRISE</span>
             </Link>
           </div>
 

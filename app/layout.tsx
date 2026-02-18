@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter_Tight } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const interTight = Inter_Tight({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TCH Enterprises - Imported Connector Supplier in India',
-  description: 'TCH Enterprises is a trusted importer and supplier of original automotive and industrial connectors including TE, Molex, JST and more.',
+  title: 'RMI Enterprise - Imported Connector Supplier',
+  description: 'RADHA MADHAV INDIA ENTERPRISE is a trusted importer and supplier of original automotive and industrial connectors including TE, Molex, JST and more.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -28,11 +28,12 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
 }
 
 export default function RootLayout({
@@ -42,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased bg-white text-gray-900`}>
+      <body className={`${interTight.className} antialiased bg-white text-gray-900`}>
         <Navbar />
         <main>
           {children}

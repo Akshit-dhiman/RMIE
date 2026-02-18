@@ -10,15 +10,17 @@ export default function Contact() {
   return (
     <div className="pt-24 pb-20 bg-[var(--background)]">
       {/* Page Header */}
+      {/* Page Header */}
       <section className="bg-[var(--primary)] py-20 mb-12 border-b border-[var(--border)] relative overflow-hidden">
+        <div className="absolute inset-0 bg-[#0A1F33] z-0" />
         {/* Texture */}
         <div
-          className="absolute inset-0 opacity-10 pointer-events-none"
+          className="absolute inset-0 opacity-10 pointer-events-none z-10"
           style={{ backgroundImage: 'linear-gradient(45deg, #ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}
         />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">Request A Quotation</h1>
-          <p className="text-lg text-gray-400 max-w-2xl leading-relaxed">
+          <p className="text-lg text-white/60 max-w-2xl leading-relaxed font-light">
             Our technical procurement team processes requests 24/7.
             Receive a formal commercial proposal within 24 hours.
           </p>
@@ -53,8 +55,8 @@ export default function Contact() {
               <div className="space-y-6">
                 <div>
                   <div className="text-[10px] text-gray-400 uppercase tracking-widest mb-2 font-mono">Sales Hotline</div>
-                  <a href="tel:+919876543210" className="text-2xl font-mono hover:text-[var(--accent)] transition-colors block font-bold">
-                    +91 98765 43210
+                  <a href="tel:+919211201778" className="text-2xl font-mono hover:text-[var(--accent)] transition-colors block font-bold">
+                    +91 92112 01778
                   </a>
                   <div className="text-xs text-gray-500 mt-2 flex items-center gap-2">
                     <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
@@ -67,10 +69,10 @@ export default function Contact() {
             <div className="bg-white border border-[var(--border)] p-8 rounded-[var(--radius)]">
               <h3 className="text-lg font-bold text-[var(--primary)] mb-4">Email Support</h3>
               <a
-                href="mailto:info@tchenterprises.com"
+                href="mailto:radhamadhavindia11@gmail.com"
                 className="text-[var(--primary)] font-medium hover:text-[var(--accent)] transition-colors block mb-2 break-all text-lg decoration-2 hover:underline"
               >
-                info@tchenterprises.com
+                radhamadhavindia11@gmail.com
               </a>
               <p className="text-sm text-[var(--muted-foreground)]">
                 For bulk pricing and catalog requests.
@@ -80,9 +82,10 @@ export default function Contact() {
             <div className="bg-white border border-[var(--border)] p-8 rounded-[var(--radius)]">
               <h3 className="text-lg font-bold text-[var(--primary)] mb-4">Corporate HQ</h3>
               <p className="text-[var(--muted-foreground)] text-sm leading-relaxed mb-6 font-mono">
-                123 Industrial Park, Phase III<br />
-                Okhla Industrial Estate<br />
-                New Delhi - 110020
+                SHOP NO-1 VILLAGE JUNPAT<br />
+                HARKESH MARKET<br />
+                Noida Greater Noida Link Road<br />
+                Greater Noida, UP - 201310
               </p>
               <button className="w-full border border-[var(--border)] text-[var(--primary)] bg-[var(--background)] py-3 text-sm font-bold tracking-wide hover:bg-[var(--border)] transition-colors uppercase">
                 Get Directions
